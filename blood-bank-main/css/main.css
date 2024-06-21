@@ -1,0 +1,148 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+html{
+	background: linear-gradient(#f6cba3);
+	color: #000000;
+}
+h1,h2{
+	font-family: helvetica;
+	color: #d33838;
+}
+h3{
+	font-family: Helvetica;
+}
+img{
+	filter: drop-shadow(5px 5px 5px #000000);
+}
+p{
+	font-family: Helvetica;
+	font-size: 17px;
+	font-weight: bold;
+	color: #000000;
+	margin-bottom: 20px;
+}
+.title{
+	text-shadow: 5px 6px 10px #6f6f6f; 
+	color: #c22828;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: normal;
+	position: relative;
+}
+.header {
+	font-family: Helvetica;
+	box-shadow: 0px 0px 8px #ff0000;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background: #E0CCBE;  
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	padding-bottom: 7px;
+}
+.logout{
+	float: right;
+	height: 30px;
+	margin-top: 5px;
+}
+.input{
+	border-radius: 2px;
+	border: 1px solid #010101;
+	background-color: #EEEDEB;  
+	margin-top: 4px;
+	height: 20px;
+}
+.area{
+	height: 100px;
+}
+/**********************************************/
+/*************Menus and tabs*******************/
+.tabsWraper {
+	box-shadow: 3px 3px 6px #fd8383;
+	list-style-type: none;
+	width: 20%;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+}
+.tabs a {
+	font-family: Helvetica;
+	font-size: 17px;
+	height: 40px;
+	display: block;
+	color: #000000;
+	font-weight: bold;
+	font-style: normal;
+	padding-top: 20px;
+	text-decoration: none;
+	border-bottom: 1px solid #fd8383;
+}
+.tabs a.active {
+	background-color: #a1272766;
+	color: #000000;
+}
+.tabs a:hover {
+	background: linear-gradient(#3c3d47,#2b2024);
+	color: #fd8383;
+}
+/*******************************************/
+/**************contents section*************/
+.contents{
+	background-color: #f9d5bb,#efbfc6;
+	margin-left:21%;
+	padding:10px 16px;
+}
+/*********************************************/
+/****************Custom Button****************/
+.btn{  
+	font-size: 15px;
+	color: #000;  
+	background-color: rgba(255, 255, 255, 0);  
+	padding: 7px 15px 7px 15px;  
+	box-shadow: inset 0px 0px 20px 0px rgb(255, 255, 255);
+	border: 1px solid #333;
+	border-radius: 3px; 
+	font-weight: bold;
+	transition-delay: 0.4s ease;
+
+}  
+.btn:hover{
+	background: linear-gradient(#c22828, #f86a7fec); 
+	box-shadow: none;
+	color: white;
+	transition: 0.4s ease;
+}
+/********************************************/
+/****************Custom table****************/
+table {
+	border-collapse: collapse;
+	font-size: 0.9em;
+	font-family: Helvetica;
+	min-width: 100px;
+	
+	border: 2px solid rgb(0, 0, 0);
+	height: 100px;
+	position: left;
+	right: 50%;
+	margin-right: -3px;
+	top: 0;
+}
+tr {
+	background-color: #f3f3f3;
+	color: #000;
+	text-align: left;
+}
+th{
+	padding: 12px 15px;
+	background-color: #ff0000;
+	color: #ffffff;
+	text-align: left;
+}
+td{
+	background-color: #005b981b;
+	padding: 12px 15px;
+}
